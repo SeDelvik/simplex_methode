@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="600.0" prefWidth="816.0">
+               <children>
+                  <Label text="Введите размерность">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="BOTTOM_CENTER" prefHeight="43.0" prefWidth="780.0" spacing="10.0">
+                     <children>
+                        <Spinner fx:id="sizeX" prefHeight="26.0" prefWidth="111.0" />
+                        <Spinner fx:id="sizeY" prefHeight="26.0" prefWidth="109.0" />
+                        <Button fx:id="nextSimplex" mnemonicParsing="false" text="Продолжить" />
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" prefHeight="81.0" prefWidth="780.0" spacing="20.0">
+                     <children>
+                        <Label text="Кол-во уравнений" />
+                        <Label text="Кол-во переменных" />
+                     </children>
+                     <padding>
+                        <Insets right="100.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="BOTTOM_LEFT" prefHeight="43.0" prefWidth="780.0">
+                     <children>
+                        <Button fx:id="back" mnemonicParsing="false" text="Вернуться">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+   </children>
+</AnchorPane>

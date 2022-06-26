@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="main.SimplexMethodeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-18T22:47:54" hostname="DESKTOP-848EVQV" time="0.038">
+  <properties/>
+  <testcase name="simplexStep()" classname="main.SimplexMethodeTest" time="0.038"/>
+  <system-out><![CDATA[Basis: [1, 0]
+Free Variables [3, 2]
+Core table [[-1, 2, 1], [1, 1, 2], [2, 7, 5]]
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
